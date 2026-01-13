@@ -121,16 +121,6 @@ The notebook includes different system prompts:
 
 ---
 
-## 🎯 Use Cases
-
-✅ **Marketing** - Generate brochures for competitor analysis  
-✅ **Sales** - Create quick company overviews for prospects  
-✅ **Research** - Analyze company positioning and messaging  
-✅ **Recruitment** - Create company profiles for job postings  
-✅ **Due Diligence** - Gather company information quickly  
-
----
-
 ## 🔒 Best Practices
 
 - ✓ Store your API key in `.env` file (added to `.gitignore`)
@@ -181,19 +171,9 @@ The generator produces Markdown-formatted brochures including:
 
 ---
 
-## 🤝 Contributing
-
-Feel free to:
-- Modify system prompts for different tones
-- Extend scraper.py for better content extraction
-- Add support for additional content sources
-- Improve error handling and edge cases
-
----
-
 ## 📄 License
 
-Open source - feel free to use and modify
+Open source
 
 ---
 
