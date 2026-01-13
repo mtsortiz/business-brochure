@@ -211,5 +211,3 @@ The notebook demonstrates:
 - **Streaming Responses** - Building real-time UIs with `update_display()`
 - **Error Handling** - Gracefully managing failed web requests
 - **Content Truncation** - Managing API costs with character limits
-
-This makes the notebook not just a tool, but also a reference implementation for building AI-powered web scraping and content generation workflows.
