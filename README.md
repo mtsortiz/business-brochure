@@ -204,3 +204,32 @@ Open source - feel free to use and modify
 3. **Adjust the prompt** - Customize the system prompt for different industries
 4. **Batch processing** - Generate multiple brochures for market analysis
 5. **Combine with tools** - Export to PDF or integrate with other workflows
+
+---
+
+## 📓 About the Notebook
+
+This application is built around the `company-brochure.ipynb` Jupyter notebook, which serves as both the development environment and the main interface for brochure generation.
+
+### Notebook Structure
+
+The notebook is organized into logical sections:
+
+1. **Setup & Configuration** - Import libraries, load environment variables, and configure the Gemini API client
+2. **Web Scraping Functions** - Extract links and content from company websites
+3. **Link Selection** - Use AI to identify relevant pages (About, Careers, etc.) in JSON format
+4. **Content Aggregation** - Combine landing page and relevant links into comprehensive input
+5. **Brochure Generation** - Create professional brochures with customizable system prompts
+6. **Streaming Output** - Real-time generation for interactive feedback
+
+### Key Learning Points
+
+The notebook demonstrates:
+- **OpenAI SDK Compatibility** - Using Gemini API with OpenAI-compatible endpoints
+- **Structured Outputs** - Leveraging JSON mode for reliable link selection
+- **System Prompts** - Crafting effective instructions for tone and style
+- **Streaming Responses** - Building real-time UIs with `update_display()`
+- **Error Handling** - Gracefully managing failed web requests
+- **Content Truncation** - Managing API costs with character limits
+
+This makes the notebook not just a tool, but also a reference implementation for building AI-powered web scraping and content generation workflows.
